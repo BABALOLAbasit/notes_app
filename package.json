@@ -1,0 +1,21 @@
+{
+  "name": "notes_app",
+  "version": "1.0.0",
+  "description": "To create a simple command-line note application using node.js",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon db.js"
+  },
+  "author": "Babalola Basit",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "mongodb": "^6.0.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
